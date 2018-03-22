@@ -18,7 +18,8 @@ function IC_register_widgets()
 }
 add_action( 'widgets_init', 'IC_register_widgets' );
 ```
-4. Enqueue the JavaScript file, or add the JS to your main scripts file (either way works)
+4. Enqueue the FlatPickr JS and CSS - https://flatpickr.js.org/getting-started/
+5. Enqueue the JavaScript file, or add the JS to your main scripts file (either way works)
 
 ## Usage Instructions
 1. Add the widget to your desired widget area.
